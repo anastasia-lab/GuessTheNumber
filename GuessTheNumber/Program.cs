@@ -46,7 +46,7 @@ namespace GuessTheNumber
 
                 else if (UserNumber == RandomNumberForGame)
                 {
-                    Console.WriteLine($"\nПоздравляю! Вы угадали число. Число попыток: {count}");
+                    Console.WriteLine($"\nПоздравляю! Вы угадали число. Количество попыток: {count}");
                     break;
                 }
 
