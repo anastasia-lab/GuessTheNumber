@@ -16,7 +16,7 @@ namespace GuessTheNumber
             int RangeNumber = int.Parse(Console.ReadLine());
 
             Random rnd = new Random();
-            int RandomNumberForGame = rnd.Next(0, 10);
+            int RandomNumberForGame = rnd.Next(0, RangeNumber);
             int count = 0;
 
             while (true)
